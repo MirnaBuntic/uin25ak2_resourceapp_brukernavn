@@ -1,13 +1,13 @@
-import {Link} from "react-router-dom"
+import {Link} from "react-router-dom";
 
 export default function Nav() {
     return (
         <nav>
-            <Link to="/">HTML</Link>
-            <Link to="/css">CSS</Link>
-            <Link to="/javascript">JavaScript</Link>
-            <Link to="/react">React</Link>
-            <Link to="/sanity">Sanity</Link>
+            <Link to="/resources/html">HTML</Link>
+            <Link to="/resources/css">CSS</Link>
+            <Link to="/resources/javascript">JavaScript</Link>
+            <Link to="/resources/react">React</Link>
+            <Link to="/resources/sanity and headless cms">Sanity</Link>
         </nav>
     );
 }
