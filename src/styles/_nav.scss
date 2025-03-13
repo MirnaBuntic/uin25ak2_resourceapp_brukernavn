@@ -1,2 +1,15 @@
 @import "variables";
 
+nav {
+    display: flex;
+    padding: 2rem;
+    margin-top: 3rem;
+    background-color: $darkblue;
+    
+    a {
+        color: $white;
+        text-decoration: none;
+        padding: 2rem;
+        align-self: center;
+    }
+}
