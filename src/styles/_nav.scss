@@ -2,14 +2,22 @@
 
 nav {
     display: flex;
-    padding: 2rem;
-    margin-top: 3rem;
-    background-color: $darkblue;
+    margin-top: 4rem;
+    
     
     a {
         color: $white;
         text-decoration: none;
         padding: 2rem;
-        align-self: center;
+        background-color: $darkblue;
+        font-weight: bold;
+        font-size: large;
+        margin: .8rem;
+        margin-bottom: 0;
+    }
+
+    .active {
+        background-color: $white;
+        color: $darkblue;
     }
 }
