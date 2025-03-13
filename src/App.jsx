@@ -1,14 +1,15 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useParams, Navigate } from "react-router-dom";
 import Layout from "./components/Layout";
 import Resources from "./components/Resources";
-import Home from "./components/Home";
+
 
 function App() {
+  const {slug} = useParams()
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/resources/:category" element={<Resources />} />
+        <Route path="/" element={<Navigate to="/html" />} />
+        <Route path="/:slug" element={<Resources category={slug} />} />
       </Routes>
     </Layout>
   );
