@@ -1,0 +1,23 @@
+@import "variables";
+
+nav {
+    width: 70%;
+    display: flex;
+    gap: 5px;
+    padding: 0.5rem 0;
+
+    a{
+        background-color: $darkblue;
+        color: $white;
+        font-weight: bold;
+        flex: 1;
+        text-align: center;
+        padding: 1rem 1.5rem;
+        text-decoration: none;
+    }
+
+    &.active {
+        background-color: $white;
+        color: $darkblue;
+    }
+}
