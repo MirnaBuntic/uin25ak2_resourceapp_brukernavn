@@ -1,10 +1,9 @@
-import { useParams } from "react-router-dom";
 import PageTitle from "./PageTitle";
 import resources from "../ressurser";
 
 export default function Resources( {category} ) {
-    const { slug } = useParams();
-    const filteredResources = resources.filter((res) => res.category.toLowerCase() === slug.toLowerCase());
+
+    const filteredResources = resources.filter((res) => res.category === category);
     
     if (filteredResources.length === 0) return null;
 
@@ -16,7 +15,7 @@ export default function Resources( {category} ) {
         "headless-cms": "Sanity and headless CMS"
     };
 
-    const pageTitle = categoryTitles[slug] || category.charAt(0).toUpperCase() + category.slice(1);
+    const pageTitle = categoryTitles[category] || category.charAt(0).toUpperCase() + category.slice(1);
 
     return (
         <section>
