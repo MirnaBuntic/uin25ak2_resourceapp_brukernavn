@@ -9,7 +9,7 @@ export default function Nav() {
             <NavLink to="/css">CSS</NavLink>
             <NavLink to="/javascript">JavaScript</NavLink>
             <NavLink to="/react">React</NavLink>
-            <NavLink to="/headless-cms">Sanity and headless CMS</NavLink>
+            <NavLink to="/sanity">Sanity and headless CMS</NavLink>
         </nav>
     );
 }

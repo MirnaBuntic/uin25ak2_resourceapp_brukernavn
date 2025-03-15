@@ -2,7 +2,7 @@ import PageTitle from "./PageTitle";
 import resources from "../ressurser";
 
 export default function Resources( {category} ) {
-
+    
     const filteredResources = resources.filter((res) => res.category === category);
     
     if (filteredResources.length === 0) return null;
@@ -20,12 +20,13 @@ export default function Resources( {category} ) {
     return (
         <section>
             <PageTitle title={pageTitle} />
-
-            {filteredResources.map((res, index) => (
-                <li key={index}>
-                    <a href={res.url}>{res.title}</a>
-                </li>
-            ))}
+            <ul>
+              {filteredResources.map((res, index) => (
+                   <li key={index}>
+                      <a href={res.url}>{res.title}</a>
+                   </li>
+                ))}
+            </ul>
         </section>
     );
 }
