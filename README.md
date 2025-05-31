@@ -1,6 +1,6 @@
 # Arkiv-prosjekt
 
-Dette er et skolprosjekt i faget inføring i programmering hvor jeg har brukt HTML, SCSS, JavaScript för att skapa et simpel arkiv i en React app. 
+Dette er et skolprosjekt i faget interaktive nettsteder hvor jeg har brukt HTML, SCSS, JavaScript för att skapa et simpel arkiv i en React app. 
 
 ## Struktur av projektet:
 
