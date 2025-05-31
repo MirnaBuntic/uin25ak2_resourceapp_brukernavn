@@ -1,12 +1,23 @@
-# React + Vite
+# Arkiv-prosjekt
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dette er et skolprosjekt i faget inføring i programmering hvor jeg har brukt HTML, SCSS, JavaScript för att skapa et simpel arkiv i en React app. 
 
-Currently, two official plugins are available:
+## Struktur av projektet:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Her har jeg satt opp ulike komponenter for å strukturere scripten, deretter router jeg alle paths i app.jsx.
 
-## Expanding the ESLint configuration
+## Teknologier:
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- HTML
+- SCSS
+- JavaScript
+- React
+- React router
+- Node
+- Vite
+
+## Refleksjon:
+
+Dette er en veldig simpel app, hvor fokus var å lage lettlest og strukturet kod.
+
+
