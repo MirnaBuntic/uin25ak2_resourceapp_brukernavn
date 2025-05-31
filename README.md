@@ -18,6 +18,6 @@ Her har jeg satt opp ulike komponenter for å strukturere scripten, deretter rou
 
 ## Refleksjon:
 
-Dette er en veldig simpel app, hvor fokus var å lage lettlest og strukturet kod.
+Dette er en veldig simpel app, hvor fokus var å lage lettlest og strukturet kod. Jeg har også brukt scss istedent for css for å kunne bruke nesting av koden.
 
 
